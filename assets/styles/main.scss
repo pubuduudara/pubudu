@@ -1,0 +1,23 @@
+@import './assets/icons/feather/feather.css';
+
+@import 'colors';
+@import "typography";
+
+@import "components/hero";
+@import "components/social-links";
+@import "components/buttons";
+@import "components/side-menu";
+@import "components/project";
+@import "components/about";
+@import "components/contact";
+@import "components/footer";
+
+@import 'animations/flicker-in';
+@import 'animations/fade-in';
+@import 'animations/fade-in-top';
+@import 'animations/fade-in-bottom';
+@import 'animations/fade-in-left';
+@import 'animations/fade-in-right';
+
+
+@import "layout";

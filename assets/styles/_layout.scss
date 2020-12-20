@@ -1,0 +1,119 @@
+@import "colors.scss";
+
+// Basic resets
+html, body, div {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: unset;
+  max-width: 1264px;
+}
+
+
+.alternate-background {
+  background: $grey-3;
+}
+
+
+// Fix for project descriptions
+.col-md-6 {
+  width: 100%;
+}
+
+
+// Media queries for responsiveness
+@media (max-width: 575.98px) {
+  .section, .hero-section, .navbar, .footer {
+    padding: 2rem 2rem;
+  }
+
+  .section-text {
+    text-align: left;
+  }
+
+  .footer {
+    padding: 2rem 1rem;
+  }
+
+  .navbar {
+    padding: 2rem 1rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .section, .hero-section {
+    padding: 3rem 6rem;
+  }
+
+  .footer {
+    padding: 2rem 6rem;
+  }
+
+  .navbar {
+    padding: 2rem 6rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-name {
+    text-align: center;
+  }
+
+  .avatar-wrapper {
+    margin: 0 auto 2rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .section, .hero-section {
+    padding: 3rem 8rem;
+  }
+
+  .footer {
+    padding: 2rem 8rem;
+  }
+
+  .navbar {
+    padding: 2rem 8rem;
+  }
+
+  .project {
+    margin-bottom: 4rem;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .section, .hero-section {
+    padding: 4rem 10rem;
+  }
+
+  .footer {
+    padding: 2rem 10rem;
+  }
+
+  .navbar {
+    padding: 2rem 10rem;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .section, .hero-section {
+    padding: 4rem 14rem;
+  }
+  .footer {
+    padding: 2rem 14rem;
+  }
+
+  .navbar {
+    padding: 2rem 14rem;
+  }
+}

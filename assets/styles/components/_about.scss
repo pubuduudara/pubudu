@@ -1,0 +1,30 @@
+@import "../colors";
+@import "../shapes";
+
+.about-section {
+  .about-text-col {
+    padding-right: 2rem;
+
+    p {
+      margin-top: 0;
+      color: $secondary-text-light;
+    }
+  }
+
+  .about-image-col {
+    .about-image {
+      text-align: center;
+
+      img {
+        border-radius: $box-radius;
+        max-width: 65%;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-image-col {
+    padding-top: 2rem;
+  }
+}

@@ -1,0 +1,73 @@
+@import 'assets/styles/main';
+
+$secondary-animations-delay: 0s;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hamburger {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 2;
+}
+
+
+// Define project colors
+.sheep83 {
+  .project-info {
+    border-color: #489289;
+  }
+}
+
+.cucuit {
+  .project-info {
+    border-color: #F07558;
+  }
+}
+
+.shuttle-finder {
+  .project-info {
+    border-color: #99CC33;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .hero-name > h1 {
+    @include fade-in-left;
+    animation-delay: 0.3s;
+  }
+
+  .hero-text > p {
+    @include fade-in-left;
+    animation-delay: 0.3s;
+  }
+
+  .avatar-wrapper {
+    @include fade-in-right;
+    animation-delay: 0.3s;
+  }
+
+  .hero-technologies {
+    @include fade-in-left;
+    animation-delay: 0.6s;
+  }
+
+  .projects-section {
+    .section-title {
+      @include fade-in-bottom;
+      animation-delay: 0.6s;
+    }
+  }
+
+  .social-links {
+    @include fade-in;
+    animation-delay: 0.9s;
+  }
+}
+
+
+
+
