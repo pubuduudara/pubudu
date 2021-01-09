@@ -6,47 +6,26 @@
 
 /*
 --------------------------------------------------------------------------------
-Gallary styles
-*/
-.image-grid-cover {
-  width: 100%;
-  background-size: cover;
-  min-height: 200px;
-  position: relative;
-  margin-bottom: 30px;
-  text-shadow: rgba(0,0,0,.8) 0 1px 0;
-  border-radius: 4px;
-}
-.image-grid-clickbox {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  z-index: 20;
-  background: rgba(0,0,0,.45);
-}
-.cover-wrapper {
-  font-size: 18px;
-  text-align: center;
-  display: block;
-  color: #fff;
-  text-shadow: rgba(0,0,0,.8) 0 1px 0;
-  z-index: 21;
-  position: relative;
-  top: 80px;
-}
-a, a:focus, a:hover {
-  text-decoration: none;
-  outline: 0;
-}
+certificates
+
 
 /*
 --------------------------------------------------------------------------------
 */
+
+
+body{ margin-top:20px;}
+.glyphicon { margin-right:5px;}
+.section-box h2 { margin-top:0px;}
+.section-box h2 a { font-size:15px; }
+.glyphicon-heart { color:#e74c3c;}
+.glyphicon-comment { color:#27ae60;}
+.separator { padding-right:5px;padding-left:5px; }
+.section-box hr {margin-top: 0;margin-bottom: 5px;border: 0;border-top: 1px solid rgb(199, 199, 199);}
+
+
+/* 
+--------------------------------- */
 
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
